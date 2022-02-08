@@ -1,5 +1,5 @@
 {% set name = "pytask-environment" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytask_environment-{{ version }}.tar.gz
-  sha256: b3ba4abe2e628421a1cfde2291a07adc47a89c802b7902952b6063eb414170cf
+  sha256: 3ae6ce679bec57fac9d15551f366ea098c964512157601f304419ad71d59f669
 
 build:
   number: 0
