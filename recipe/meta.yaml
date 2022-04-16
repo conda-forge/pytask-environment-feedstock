@@ -1,5 +1,5 @@
 {% set name = "pytask-environment" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pytask_environment-{{ version }}.tar.gz
-  sha256: 3ae6ce679bec57fac9d15551f366ea098c964512157601f304419ad71d59f669
+  sha256: 2bce297a9d070301450c75f959229e38078b6bbb5f880cbb284e34b229bacb70
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -24,7 +24,7 @@ requirements:
   run:
     - click
     - pony
-    - pytask >=0.1.7
+    - pytask >=0.2
     - python >=3.7
 
 test:
