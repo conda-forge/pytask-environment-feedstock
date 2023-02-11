@@ -24,7 +24,7 @@ requirements:
   run:
     - click
     - pony
-    - pytask >=0.2
+    - pytask >=0.3
     - python >=3.7
 
 test:
